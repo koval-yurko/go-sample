@@ -3,7 +3,7 @@ package sample
 import (
 	"fmt"
 
-	"example.com/client/utils"
+	"github.com/koval-yurko/go-sample/client/utils"
 )
 
 // Hello returns a greeting for the named person.
