@@ -1,0 +1,12 @@
+go 1.21.4
+
+use (
+	.
+	./client
+	./test
+)
+
+replace (
+	github.com/koval-yurko/go-sample/client => ./client
+	github.com/koval-yurko/go-sample/test => ./test
+)
