@@ -7,7 +7,7 @@ import (
 )
 
 func TestHello(t *testing.T) {
-	want := "Hi, aa. Welcome!"
+	want := "Hi, aa. Welcome v0.1.0!"
 	if got := sample.Hello("aa"); got != want {
 		t.Errorf("Hello() = %q, want %q", got, want)
 	}

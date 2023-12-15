@@ -12,6 +12,6 @@ func Hello(name string) string {
 	utils.Utils_test()
 
 	// Return a greeting that embeds the name in a message.
-	message := fmt.Sprintf("Hi, %v. Welcome v0.0.7!", name)
+	message := fmt.Sprintf("Hi, %v. Welcome v0.1.0!", name)
 	return message
 }
