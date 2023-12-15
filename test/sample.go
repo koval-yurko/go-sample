@@ -1,5 +1,5 @@
 package tests
 
 func TestFn() {
-	print("Hello test v0.0.1")
+	print("Hello test v0.0.7")
 }
